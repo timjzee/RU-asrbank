@@ -12,3 +12,5 @@ django-nested-admin
 lxml
 openpyxl
 urllib3
+
+uwsgi ; sys_platform != 'win32'
