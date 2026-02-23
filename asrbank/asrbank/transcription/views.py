@@ -30,7 +30,7 @@ import zipfile
 import tempfile
 import io
 
-from asrbank.settings import APP_PREFIX, LANGUAGE_CODE_LIST, WRITABLE_DIR,XSD_NAME, COUNTRY_CODES, TAR_DIR, XML_DIR
+from asrbank.settings import APP_PREFIX, LANGUAGE_CODE_LIST, WRITABLE_DIR, XSD_NAME, COUNTRY_CODES, XML_DIR
 from asrbank.transcription.models import *
 from asrbank.transcription.forms import *
 
