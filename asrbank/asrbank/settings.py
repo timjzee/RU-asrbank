@@ -23,6 +23,10 @@ if "RU-asrbank\\writable" in WRITABLE_DIR:
 elif "/applejack" in BASE_DIR:
     WRITABLE_DIR = os.path.abspath(os.path.join(BASE_DIR, "../../writable/asrbank/database/"))
 
+# Containerized Radboud Environment
+if "/var/writable" in WRITABLE_DIR:
+    WRITABLE_DIR = os.path.abspath(os.path.join(BASE_DIR, "../writable/database/"))
+
 # Specify the directory where the created XML files are going to be stored (persistently)
 XML_DIR = os.path.abspath(os.path.join(WRITABLE_DIR, "xml"))
 
