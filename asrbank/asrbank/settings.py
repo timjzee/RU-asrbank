@@ -51,8 +51,6 @@ FORCE_SCRIPT_NAME = ADMIN_SITE_URL
 # HOME_URI = 
 
 XSD_NAME = "OralHistoryInterview.xsd.txt"
-TAR_DIR = os.path.abspath(os.path.join(WRITABLE_DIR, "asrbank/xml"))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
