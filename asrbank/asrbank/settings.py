@@ -44,6 +44,9 @@ elif "/scratch" in WRITABLE_DIR:
     APP_PREFIX = "oh-metadataregistry/"
     # admin.site.site_url = "/oh-metadataregistry"
     ADMIN_SITE_URL = "/oh-metadataregistry"
+else:    # Container environment
+    APP_PREFIX = ""
+    ADMIN_SITE_URL = "/"
 
 # FORCE_SCRIPT_NAME = admin.site.site_url
 # WOrks for Django 2.2 onwards:
