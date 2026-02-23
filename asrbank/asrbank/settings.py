@@ -31,6 +31,7 @@ if "/var/writable" in WRITABLE_DIR:
 XML_DIR = os.path.abspath(os.path.join(WRITABLE_DIR, "xml"))
 
 APP_PREFIX = "ru/"
+ADMIN_SITE_URL = "/"
 if "d:" in WRITABLE_DIR or "D:" in WRITABLE_DIR:
     APP_PREFIX = ""
     # admin.site.site_url = '/'
