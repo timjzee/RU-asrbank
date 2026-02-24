@@ -73,6 +73,7 @@ APPEND_SLASH = True
 # Application definition
 
 INSTALLED_APPS = [
+    'asrbank.transcription',
     'django.contrib.admin',
     'django.contrib.admindocs',
     'django.contrib.auth',
@@ -81,7 +82,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'nested_admin',
-    'asrbank.transcription',
 ]
 
 MIDDLEWARE = [
