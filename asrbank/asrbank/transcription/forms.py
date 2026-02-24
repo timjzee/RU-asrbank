@@ -58,7 +58,7 @@ def add_required_label_tag(original_function):
 def decorate_bound_field():
     """Override the [label_tag()] function for Bound fields"""
 
-    from django.forms.forms import BoundField
+    from django.forms.boundfield import BoundField
     BoundField.label_tag = add_required_label_tag(BoundField.label_tag)
 
 # Call the above
